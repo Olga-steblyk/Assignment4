@@ -5,3 +5,10 @@ class CopyrightYear extends HTMLElement{
 }
 
 customElements.define("x-year", CopyrightYear);
+class OlgaElement extends HTMLElement{
+    connectedCallback(){
+        this.innerHTML = "Olga was here";
+    }
+}
+
+customElements.define("x-olga", OlgaElement);
